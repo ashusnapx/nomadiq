@@ -6,11 +6,10 @@
 ## 6.1 Cover Page
 
 *   **Case Study Name:** NomadIQ: Personalized Travel Itinerary Generator with Real-Time Adaptive Updates
-*   **Employee ID:** PE-00827
+*   **Employee ID:** 2826547
 *   **Associate Name:** Ashutosh Kumar
-*   **Role:** Principal AI Solutions Architect & Staff Platform Engineer
+*   **Role:** Assistant System Engineer
 *   **Version:** 1.0.0 (Production Grade)
-*   **Target Reviewers:** Principal Engineers, Staff Engineers, Startup CTOs
 *   **Workspace Repository:** [nomadiq](file:///Users/ashutoshkumar/nomadiq)
 
 ---
