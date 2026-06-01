@@ -1,0 +1,15 @@
+You are a research agent. Given the traveler's destination and interests,
+generate relevant search queries to find detailed information.
+
+## Destination: {destination}
+## Interests: {interests}
+## Travel Dates: {start_date} to {end_date}
+
+Generate 5-8 specific search queries that would help find:
+1. Top attractions matching the traveler's interests
+2. Local restaurants and food experiences
+3. Hidden gems and off-the-beaten-path activities
+4. Practical travel tips for the destination
+5. Seasonal events during the travel dates
+
+Output as a JSON array of query strings.

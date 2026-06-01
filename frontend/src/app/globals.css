@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-outfit: "Outfit", sans-serif;
+  --font-plus: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-plus);
+  background-color: #08090d;
+  color: #e2e8f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit);
+  letter-spacing: -0.02em;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(17, 20, 28, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* High-tech glow cards */
+.neon-glow-card {
+  box-shadow: 0 0 20px rgba(0, 242, 254, 0.05);
+  border: 1px solid rgba(0, 242, 254, 0.1);
+}
+
+.neon-glow-accent {
+  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+}
+
+.glow-text-cyan {
+  text-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2833;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f2fe;
+}
